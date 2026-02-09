@@ -31,6 +31,6 @@ is created, containing the compiled byte-code.
 
 Make a note of the size of the file for comparison with C later.
 You can find the size of a file using
-
+282
   `ls -al`
   
