@@ -6,6 +6,7 @@
  */
 
 #include <stdio.h>
+#include <math.h>
 
 int main( void ) {
 
@@ -20,6 +21,10 @@ int main( void ) {
      * Print out the final amount and the gain compared to the initial deposit.
      */
     
+    final_amount = deposit * pow((rate+1), term);
+    gain = final_amount - deposit;
+    printf("Final amount: £%f \n", final_amount);
+    printf("Gain: £%f \n, gain);
 
     return 0;
 }

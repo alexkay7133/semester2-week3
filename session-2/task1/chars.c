@@ -8,7 +8,7 @@
 
 int main( void ) {
     char c = 'a';
-    int k = 95;
+    int k = 96;
 
     printf("Display char as char: %c\n",c);
     printf("Display char as int: %d\n",c);

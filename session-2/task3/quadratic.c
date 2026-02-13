@@ -10,7 +10,7 @@
 #include <math.h>
 
 int main( void ) {
-
+/* roots = (-b +- sqrt(b**2 / 4ac))/2a */
     float a = 1.0;
     float b = -5.0;
     float c = 6.0;
@@ -22,7 +22,9 @@ int main( void ) {
      * Print out the final results for the 2 roots as float values.
      */
 
-    
+    root1 = (-b + sqrt(b*b - 4*a*c))/(2*a);
+    root2 = (-b - sqrt(b*b - 4*a*c))/(2*a);
+    printf("root1 = %f, root2 = %f \n", root1, root2);
 
     return 0;
 }
