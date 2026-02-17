@@ -27,10 +27,10 @@ int main( void ) {
     }
 
     // Use only these print statement with appropriate formatting and variable names
-    printf("Salary £%.2f \n",salary);
-    printf("NI contribution £%.2f \n",NI_amount);
-    printf("Tax contribution £%.2f \n",tax_amount);
-    printf("Take home salary £%.2f \n",final_salary);
+    printf("Salary £%.2f\n",salary);
+    printf("NI contribution £%.2f\n",NI_amount);
+    printf("Tax contribution £%.2f\n",tax_amount);
+    printf("Take home salary £%.2f\n",final_salary);
 
     return 0;
 }
